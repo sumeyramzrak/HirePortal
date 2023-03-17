@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "secrets2": {
+      "type": "secrets"
+    },
+    "secrets1": {
+      "type": "secrets",
+      "connectionId": "VaultUri"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "MigrationConnectionString"
+    }
+  }
+}

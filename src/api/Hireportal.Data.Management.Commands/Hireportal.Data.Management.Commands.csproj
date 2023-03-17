@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\data\Hireportal.Data\Hireportal.Data.csproj" />
+    <ProjectReference Include="..\Hireportal.Data.Request\Hireportal.Data.Request.csproj" />
+  </ItemGroup>
+
+</Project>

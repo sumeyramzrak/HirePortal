@@ -1,0 +1,6 @@
+Add-Migration initial -P Hireportal.Data -C HireportalDbContext -S Hireportal.Api
+--------------
+Update-Database -P Hireportal.Data -Context HireportalDbContext -S Hireportal.Api
+
+    migrationBuilder.MigrateUsers();
+    migrationBuilder.MigrateLookups();

@@ -1,0 +1,13 @@
+﻿global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using Microsoft.EntityFrameworkCore;
+global using Hireportal.Entites.Main;
+global using Hireportal.Entites.Profile;
+global using AutoMapper;
+global using AutoMapper.QueryableExtensions;
+global using Hireportal.Common;
+global using Hireportal.Data.Abstractions;
+global using System.Linq.Expressions;

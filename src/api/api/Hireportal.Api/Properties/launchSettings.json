@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:10744",
+      "sslPort": 44314
+    }
+  },
+  "profiles": {
+    "Hireportal.Api": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7045;http://localhost:5045",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://hireportalapivault.vault.azure.net/",
+        "AZURE_USERNAME": "harunmetehan.cam@bilgeadamboost.com"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://hireportalapivault.vault.azure.net/",
+        "AZURE_USERNAME": "harunmetehan.cam@bilgeadamboost.com"
+      }
+    }
+  }
+}

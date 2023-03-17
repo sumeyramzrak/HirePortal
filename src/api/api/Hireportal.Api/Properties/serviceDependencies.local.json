@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/HireportalApivault",
+      "type": "secrets.keyVault",
+      "connectionId": "VaultUri"
+    },
+    "secrets2": {
+      "type": "secrets.user"
+    },
+    "mssql1": {
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/hire-portal/databases/Hireportal",
+      "type": "mssql.azure",
+      "connectionId": "MigrationConnectionString"
+    }
+  }
+}
